@@ -12,7 +12,7 @@ import spacy
 
 nlp = spacy.load("en_core_web_sm")
 
-user = 'jaihindpulwama'
+user = 'username'
 print(f'Username: {user} \n')
 
 url_comment = f'https://api.pushshift.io/reddit/search/comment/?author={user}&size=1000'
